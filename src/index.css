@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rampart+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Rampart+One&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,91 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hot {
+  background-color: rgb(250, 143, 124);
+}
+
+.cold {
+  background-color:rgb(115, 157, 236);
+}
+
+.container {
+  height: 1000px;
+  width: 1000px;
+  border-radius: 32px;
+  box-shadow: 10px 10px 5px rgba(78, 78, 78, 0.514);
+}
+
+.default {
+  background-color:rgb(115, 157, 236);
+}
+
+.input {
+  position: relative;
+  width: 725px;
+  height: 50px;
+  border: 0px;
+  font-size:40px;
+  border-radius: 8px;
+  top: 25px;
+  box-shadow: 10px 10px 5px grey;
+  opacity: 0.7;
+}
+
+.input:hover {
+  width: 750px;
+  height: 75px;
+  border-radius: 12px;
+  transition: all .2s ease-in-out; 
+}
+
+
+.input:focus {
+  width: 750px;
+  height: 75px;
+  border-radius: 12px;
+  transition: all .2s ease-in-out; 
+}
+
+.state-date-container {
+  position: relative;
+  top: 150px;
+}
+
+.weather-container {
+  position: relative;
+  top: 250px;
+}
+
+.city {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 75px;
+  color: white;
+}
+
+.date {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.temperature {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 200px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.weather {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.icon-img {
+  position: relative;
+  top: 50px;
 }
